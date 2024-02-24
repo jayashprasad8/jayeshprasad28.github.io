@@ -291,7 +291,7 @@ section {
 .home-img img {
     position: absolute;
     bottom: 0;
-    right: 60px;
+    right: 30px;
     pointer-events: none;
     max-width: 400px;
     max-height: 100vh;
