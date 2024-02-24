@@ -360,15 +360,22 @@ section#about {
     margin-bottom: 5rem;
 }
 
-.services .services-container {
+/* .services .services-container {
     display: flex;
     justify-content: center;
-    flex-direction: row; /* Display items in a single row */
+    flex-direction: row; 
     gap: 2rem;
-    overflow-x: auto; /* Allow horizontal scrolling if items overflow */
-    padding: 0 2rem; /* Add padding to prevent items from sticking to the edges */
-}
+    overflow-x: auto; 
+    padding: 0 2rem;
+} */
 
+.services .services-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
 
 .services-container .services-box {
     flex: 0 0 auto; /* Prevent items from growing or shrinking */
