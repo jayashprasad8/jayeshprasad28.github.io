@@ -384,7 +384,6 @@ section#about {
 }
 
 .services-container .services-box {
-    flex: 0 0 auto; /* Prevent items from growing or shrinking */
     width: 40rem; /* Fixed width for all cards */
     height: 55rem; /* Adjusted height */
     background: var(--bg-color);
