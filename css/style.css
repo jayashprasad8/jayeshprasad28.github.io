@@ -121,15 +121,17 @@ section {
 
 .home {
     display: flex;
+    flex-direction: row;
     align-items: center;
     margin-bottom: 1rem;
-    margin-top: 10rem;
+    margin-top: 3rem;
+
 }
 
 .home .home-content {
     max-width: 75rem;
     text-align: justify; /* Align text justified */
-    margin-top: 10rem;
+    margin-top: 3rem;
     margin-right: 5rem; /* Add some gap between home-content and home.png */
 }
 
@@ -383,12 +385,13 @@ section#about {
 } */
 
 .services .services-container {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     flex-direction: row; 
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    overflow-x: auto; 
 }
 
 .services-container .services-box {
