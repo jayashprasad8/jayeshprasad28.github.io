@@ -123,6 +123,7 @@ section {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     margin-bottom: 1rem;
     margin-top: 3rem;
 
@@ -392,6 +393,7 @@ section#about {
     flex-wrap: wrap;
     gap: 2rem;
     overflow-x: auto; 
+    overflow-y: auto;
 }
 
 .services-container .services-box {
