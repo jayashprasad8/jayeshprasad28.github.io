@@ -123,11 +123,17 @@ section {
     display: flex;
     justify-content: center; /* Align content horizontally to the center */
     margin-bottom: 1rem;
+    margin-top: 2rem; /* Add some gap above the home section */
 }
 
 .home .home-content {
     max-width: 60rem;
     text-align: justify; /* Align text justified */
+    margin-bottom: 2rem; /* Add some gap between home-content and home.png */
+}
+
+.home.png {
+    margin-top: 2rem; /* Add some gap between the home-content and home.png */
 }
 
 .home-content h3 {
