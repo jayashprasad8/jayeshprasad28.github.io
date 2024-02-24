@@ -127,13 +127,15 @@ section {
 }
 
 .home .home-content {
-    max-width: 60rem;
+    max-width: 75rem;
     text-align: justify; /* Align text justified */
-    margin-bottom: 2rem; /* Add some gap between home-content and home.png */
+    margin-top: 5rem;
+    margin-right: 5rem; /* Add some gap between home-content and home.png */
 }
 
 .home.png {
-    margin-top: 2rem; /* Add some gap between the home-content and home.png */
+    margin-top: 5rem; /* Add some gap between the home-content and home.png */
+    margin-left: 5rem;
 }
 
 .home-content h3 {
@@ -143,7 +145,7 @@ section {
 }
 
 .home-content h1 {
-    font-size: 4.5rem;
+    font-size: 5.6rem;
     font-weight: 700;
     margin-bottom: .3rem;
 }
@@ -378,6 +380,7 @@ section#about {
 .services .services-container {
     display: inline-flex;
     justify-content: center;
+    flex-direction: row; 
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
