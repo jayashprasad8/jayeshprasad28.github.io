@@ -360,7 +360,7 @@ section#about {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; /* Center the items vertically */
+    flex-direction: row; /* Center the items vertically */
     gap: 2rem;
     max-width: 1200px; /* Limit the maximum width of the container */
     margin: 0 auto; /* Center the container horizontally */
