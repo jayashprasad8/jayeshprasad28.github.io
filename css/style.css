@@ -121,17 +121,14 @@ section {
 
 .home {
     display: flex;
-    align-items: center;
+    justify-content: center; /* Align content horizontally to the center */
     margin-bottom: 1rem;
 }
 
 .home .home-content {
     max-width: 60rem;
-    margin: 0 auto; /* Center the content horizontally */
-    padding: 0 2rem; /* Add some padding to the sides */
-    text-align: center; /* Center-align the text */
+    text-align: justify; /* Align text justified */
 }
-
 
 .home-content h3 {
     font-size: 5.6rem;
@@ -147,6 +144,7 @@ section {
 
 .home-content p {
     font-size: 1.6rem;
+    text-align: justify; /* Align text justified */
 }
 
 .home-content .social-media a {
@@ -169,6 +167,7 @@ section {
     background: var(--main-color);
     color: var(--white-color);
 }
+
 
 .btn {
     display: inline-block;
