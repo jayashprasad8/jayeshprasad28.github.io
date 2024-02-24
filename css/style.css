@@ -357,12 +357,15 @@ section#about {
 }
 
 .services .services-container {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column; /* Center the items vertically */
     gap: 2rem;
+    max-width: 1200px; /* Limit the maximum width of the container */
+    margin: 0 auto; /* Center the container horizontally */
 }
+
 
 .services-container .services-box {
     width: 40rem; /* Fixed width for all cards */
