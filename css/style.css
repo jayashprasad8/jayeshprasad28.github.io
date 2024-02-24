@@ -350,6 +350,7 @@ section#about {
 .services {
     min-height: auto;
     padding-bottom: 10rem;
+    overflow-y: hidden; /* Hide vertical scrollbar */
 }
 
 .services h2 {
