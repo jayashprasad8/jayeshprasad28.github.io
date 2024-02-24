@@ -7,6 +7,11 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 };
 
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'assets/particles.json', function() {
+    console.log('callback - particles-js config loaded');
+  });
+
 
 /*========== scroll sections active link ==========*/
 let sections = document.querySelectorAll('section');
