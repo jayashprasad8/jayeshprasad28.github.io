@@ -121,14 +121,13 @@ section {
 
 .home {
     display: flex;
-    flex-direction: row; /* Arrange items horizontally */
-    justify-content: center; /* Align content horizontally to the center */
+    align-items: center;
     margin-bottom: 1rem;
-    margin-top: 10rem; /* Add some gap above the home section */
+    margin-top: 10rem;
 }
 
 .home .home-content {
-    max-width: 60rem;
+    max-width: 75rem;
     text-align: justify; /* Align text justified */
     margin-top: 10rem;
     margin-right: 5rem; /* Add some gap between home-content and home.png */
@@ -137,7 +136,7 @@ section {
 .home-content h3 {
     font-size: 5.6rem;
     font-weight: 700;
-    line-height: .3;
+    /* line-height: .3; */
 }
 
 .home-content h1 {
