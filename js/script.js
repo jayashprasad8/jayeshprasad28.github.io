@@ -8,9 +8,9 @@ menuIcon.onclick = () => {
 };
 
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-particlesJS.load('particles-js', 'js/particles.js', function() {
-    console.log('callback - particles-js config loaded');
-  });
+// particlesJS.load('particles-js', 'js/particles.js', function() {
+//     console.log('callback - particles-js config loaded');
+//   });
 
 
 /*========== scroll sections active link ==========*/
