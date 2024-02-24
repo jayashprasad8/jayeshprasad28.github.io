@@ -127,7 +127,11 @@ section {
 
 .home .home-content {
     max-width: 60rem;
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 0 2rem; /* Add some padding to the sides */
+    text-align: center; /* Center-align the text */
 }
+
 
 .home-content h3 {
     font-size: 5.6rem;
