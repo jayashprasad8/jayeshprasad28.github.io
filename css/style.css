@@ -124,13 +124,13 @@ section {
     flex-direction: row; /* Arrange items horizontally */
     justify-content: center; /* Align content horizontally to the center */
     margin-bottom: 1rem;
-    margin-top: 2rem; /* Add some gap above the home section */
+    margin-top: 5rem; /* Add some gap above the home section */
 }
 
 .home .home-content {
     max-width: 60rem;
     text-align: justify; /* Align text justified */
-    margin-right: 2rem; /* Add some gap between home-content and home.png */
+    margin-right: 5rem; /* Add some gap between home-content and home.png */
 }
 
 .home-content h3 {
@@ -140,7 +140,7 @@ section {
 }
 
 .home-content h1 {
-    font-size: 4.5rem;
+    font-size: 5.6rem;
     font-weight: 700;
     margin-bottom: .3rem;
 }
@@ -172,7 +172,7 @@ section {
 }
 
 .home .home.png {
-    margin-top: 2rem; /* Add some gap between the home-content and home.png */
+    margin-top: 5rem; /* Add some gap between the home-content and home.png */
 }
 
 .home .home.png img {
