@@ -392,8 +392,8 @@ section#about {
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
-    overflow-x: auto; 
-    overflow-y: auto;
+    /* overflow-x: auto; 
+    overflow-y: auto; */
 }
 
 .services-container .services-box {
